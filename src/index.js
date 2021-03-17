@@ -1,16 +1,16 @@
 
 import ReactDOM from 'react-dom';
-const index = 0;
+// const index = 0;
 
 setInterval(() =>{
   const element =(
-    <h1 className="heading" tabIndex={index}>
+    <h1 className="heading">
     <span className="text">Hello World {new Date().toLocaleTimeString()}</span>
     
     </h1>
   );
   ReactDOM.render(element, document.getElementById('root'));
-}, 1000)
+},)
 
 
 
